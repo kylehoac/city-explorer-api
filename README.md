@@ -11,7 +11,8 @@ In this lab assignment, I am building my own custom API server, which will provi
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+
+- Javascript, dotenv, superagent,Weatherbit API, cors, express
 
 ## Change Log
 
@@ -21,14 +22,14 @@ In this lab assignment, I am building my own custom API server, which will provi
 
 Name of feature: ________________________________
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 2 hours
 
-Start time: _____
+Start time: 1:00
 
-Finish time: _____
+Finish time: 5:30
 
-Actual time needed to complete: _____
+Actual time needed to complete: 4:30
 
 ## Credit and Collaborations
 
-Worked with Tim to get a basic white board down
+Worked with Tim and Dion to get a basic white board down, and review code
