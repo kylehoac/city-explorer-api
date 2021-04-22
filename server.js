@@ -31,6 +31,9 @@ class Forecast {
 class Movies {
     constructor(movie) {
         this.name = movie.title;
+        this.overview = movie.overview;
+        this.popularity = movie.popularity;
+        this.image = movie.poster_path;
     }
 }
 
