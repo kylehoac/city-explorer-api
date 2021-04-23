@@ -9,7 +9,7 @@ class Forecast {
 }
 
 async function weatherHandler(request, response) {
-
+try{
     const lat = request.query.lat;
     const lon = request.query.lon;
 
@@ -24,6 +24,9 @@ async function weatherHandler(request, response) {
 
     const forecasts = weatherArray.map(day => new Forecast(day));
     response.send(forecasts);
+} catch(error){
+    response.send('error: Something went wrong!')
+}
 }
 
 module.exports = weatherHandler;
