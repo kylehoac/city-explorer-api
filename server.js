@@ -3,8 +3,8 @@
 // Load env data from the .env file
 require('dotenv').config();
 
-const superagent = require('superagent');
 // App dependencies
+// const superagent = require('superagent');
 const express = require('express');
 const cors = require('cors');
 
